@@ -14,6 +14,7 @@ To accomplish this mission, I build a semantic-segmentation dataset of rock crac
 
 ```bash
 wget -c http://47.94.192.51/static/files/images.tar.gz
+tar -xzvf images.tar.gz
 ```
 
 ## for CT-slice-crack 
@@ -23,6 +24,7 @@ wget -c http://47.94.192.51/static/files/images.tar.gz
 
 ```bash
 wget -c  http://47.94.192.51/static/files/CT_images.tar.gz
+tar -xzvf CT_images.tar.gz
 ```
 
 # Example

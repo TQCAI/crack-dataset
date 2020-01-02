@@ -13,7 +13,7 @@ To accomplish this mission, I build a semantic-segmentation dataset of rock crac
 [rock-crack and concrete-crack dataset](http://47.94.192.51/static/files/images.tar.gz)
 
 ```bash
-wget http://47.94.192.51/static/files/images.tar.gz
+wget -c http://47.94.192.51/static/files/images.tar.gz
 ```
 
 ## for CT-slice-crack 
@@ -22,7 +22,7 @@ wget http://47.94.192.51/static/files/images.tar.gz
 [CT-slice-crack  dataset](http://47.94.192.51/static/files/CT_images.tar.gz)
 
 ```bash
-wget http://47.94.192.51/static/files/CT_images.tar.gz
+wget -c  http://47.94.192.51/static/files/CT_images.tar.gz
 ```
 
 # Example

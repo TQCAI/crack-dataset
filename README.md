@@ -1,10 +1,7 @@
 # Overview
-To recognize crack on road ,building and other civil-structure, 
-using deeplearning ,especially semantic-segmentation tech of computer vision to recognize crack is a better way.
+It is a good method to identify cracks on roads, buildings and other civil structures by using deep learning, especially the semantic segmentation technology of computer vision. 
 
-But establish of dataset is the first step of whole work.
-To accomplish this mission, I build a semantic-segmentation dataset of rock crack and CT rock slice crack . 
- 
+But the establishment of data set is the first step of the whole work. In order to accomplish this task, the semantic segmentation dataset of rock crack and CT rock slice crack is established.
 
 # How to download 
 
@@ -13,8 +10,7 @@ To accomplish this mission, I build a semantic-segmentation dataset of rock crac
 [rock-crack and concrete-crack dataset](http://47.94.192.51/static/files/images.tar.gz)
 
 ```bash
-wget -c http://47.94.192.51/static/files/images.tar.gz
-tar -xzvf images.tar.gz
+wget http://47.94.192.51/static/files/images.tar.gz
 ```
 
 ## for CT-slice-crack 
@@ -23,8 +19,7 @@ tar -xzvf images.tar.gz
 [CT-slice-crack  dataset](http://47.94.192.51/static/files/CT_images.tar.gz)
 
 ```bash
-wget -c  http://47.94.192.51/static/files/CT_images.tar.gz
-tar -xzvf CT_images.tar.gz
+wget http://47.94.192.51/static/files/CT_images.tar.gz
 ```
 
 # Example
@@ -58,8 +53,8 @@ tar -xzvf CT_images.tar.gz
 
 # Thanks
 
-Thanks for ZhangLiao（张辽） and WangAo （王傲）'s help
+Thanks to ZhangLiao（张辽） and WangAo（王傲） for their help.
 
 # TODO
 
-[amplifyData-16.py](dataset-kit/amplifyData-16.py) have some problem, I need time to refactor it.
+There is a problem with [amplifyData-16.py](dataset-kit/amplifyData-16.py). I need time to refactor it.
